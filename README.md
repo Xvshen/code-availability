@@ -1,8 +1,9 @@
+# LV5plex: Immune-histological phenotypes staged by self-studying for an liver cancer multiplex staining set
 We processed the cores from tissue microarrays LV2089 and LV1221 by inForm v2.4.1 and built the data records. The data records are organized into four folders, including Clinical data, Optical acquisition & imaging, Machine learning（artificial intelligence，AI）based ROI scoring, and Colocalize.
 # Abstract
 Primary liver cancer is the second leading cause of cancer-related death and most patients are diagnosed at an advanced stage. Thus, we analyzed pathological sections from 303 liver cancer patients to identify a novel molecular treatment target. All sections were arranged as tissue microarrays (TMAs) and stained for BAP31, Ki-67, SERPINE2, and LRP1 by multiplex immunohistochemistry technology to obtain multispectral images. We artificially annotated these cores to exclude broken or folded parts and used the inForm software to compute the distribution and expression level of biomarkers in representative parts. Exported data were organized into a dataset. One-way analysis of variance (ANOVA) and the chi-square test were performed to demonstrate the utility of our dataset. We found that the H-score and colocalization of BAP31 and SERPINE2 differed in normal tissues and various stages of cancer, and they also increased with cancer development, which was consistent with the results in GEPIA. Our findings suggest that multispectral technology applied to cancer-related biomarkers is of diagnostic importance and should be validated in prospective studies.
 # Dataset Download
-The data records are publicly available at: https://1drv.ms/f/s!AlnIyL6TPqHFgbtmco4AQUMWQ7T_5w.
+The data records are publicly available at: https://1drv.ms/f/s!AlnIyL6TPqHFgbttXhW2fZQQx3SSzg
 # Code Availability
 The algorithm acquired by training the inForm to perform the function of tissue segmentation, cell segmentation and phenotype, along with a bat file to summarize the statistical information.
 The Macro coed can be used to merge all subfolders in the same folder and it should be changed to the BAT Format when it is run in the target folders.
